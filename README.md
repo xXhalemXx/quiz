@@ -1,16 +1,9 @@
 # Quiz app 
 Simple app to fetch data from API and show it as a quiz
 
-## Table of Contents
-
-- [Usage](#usage)
-- [Installation](#installation)
-- [Credits](#credits)
-- [Contributing](#contributing)
-- [Contact](#contact)
 
   
-## Usage
+## UI
 
 ### Initial Setup
 1. Upon the first launch, you will see a splash screen.
@@ -71,7 +64,8 @@ Simple app to fetch data from API and show it as a quiz
 ## Credits
 I used this figma desigen to craete this app [figma designe](https://www.figma.com/design/1VTqG5C181LqNcrIZtBkq3/QUIZY-APP-(Community)?node-id=20-65&t=Azcyl7WTE0nAiMx6-1)
 
- 
+## run app now
+You can use live demo on this link [play app](https://appetize.io/app/b_f7iipfpudecchjktojedawfeky).
  
 ## Installation
 
