@@ -1,0 +1,68 @@
+name: quiz
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # to make ui responsive we use flutter_screenutil
+  flutter_screenutil: ^5.9.3
+  # to mange state using cubit 
+  bloc: ^9.0.0
+  flutter_bloc: ^9.0.0
+  equatable: ^2.0.7
+  # to make http requests using dio
+  dio: ^5.7.0
+  pretty_dio_logger: ^1.4.0
+  # to make app easier to use and test we use get_it for dependency injection
+  get_it: ^8.0.3
+  # to create splash screen
+  flutter_native_splash: ^2.4.4
+  # to use svg icons
+  flutter_svg: ^2.0.17
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+ 
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/svgs/
+    - assets/fonts/inter/
+  fonts:
+    - family: inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.otf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.otf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-SemiBold.otf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-ExtraBold.otf
+          weight: 800
+
+  
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/src/core/constants/
+  filename: assets.dart
+  # classname: Resources
